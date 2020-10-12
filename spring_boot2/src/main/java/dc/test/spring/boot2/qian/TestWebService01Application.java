@@ -5,6 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 
 /**
+ * 入口2，测试基本的webService
+ *
  * @author senrsl
  * @ClassName: TestWebService01Application
  * @Package: dc.test.spring.boot2
