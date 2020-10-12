@@ -1,4 +1,4 @@
-package dc.test.spring.boot2;
+package dc.test.spring.boot2.qian;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

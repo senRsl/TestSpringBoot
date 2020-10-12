@@ -1,4 +1,4 @@
-package dc.test.spring.boot2.servlet;
+package dc.test.spring.boot2.qian.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -10,9 +10,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
+ * http://localhost:8080/test01?name=aaaa
+ *
  * @author senrsl
  * @ClassName: Test01HttpServlet
- * @Package: dc.test.spring.boot2.servlet
+ * @Package: dc.test.spring.boot2.qian.servlet
  * @CreateTime: 2020/9/27 4:07 下午
  */
 @WebServlet(urlPatterns = {"/test01"})

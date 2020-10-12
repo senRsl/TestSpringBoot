@@ -1,8 +1,11 @@
-package dc.test.spring.boot2;
+package dc.test.spring.boot2.zhao;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * 入口1，最基本的可以运行
+ */
 @SpringBootApplication
 public class SpringBoot2Application {
 
