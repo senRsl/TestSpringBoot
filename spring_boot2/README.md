@@ -3,6 +3,7 @@
 
 示例 gradle方式构建项目  
 - [水经注](https://senrsl.blogspot.com/2020/09/intellij-idea-2020-spring-boot-demo-01.html)
+- [Controller与Filter](https://senrsl.blogspot.com/2020/10/intellij-idea-2020-gradle-spring-boot.html)
 
 ## 拆包
 
@@ -11,3 +12,10 @@
 - qian  
   简单构建实现 webService;
 - sun  
+  简单的Controller；
+- lee  
+  自动解构声明转json;
+- zhou  
+  简单实现filter;
+- wu  
+  
