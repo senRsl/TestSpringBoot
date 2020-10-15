@@ -10,6 +10,10 @@ import dc.test.spring.boot2.wu.component.TestWu01Properties;
 
 
 /**
+ * http://localhost:8080/wu
+ * Sb2 Sb2
+ * TestWu01Controller Wu's Title Wu's Desc Sb2
+ *
  * @author senrsl
  * @ClassName: TestWu01Controller
  * @Package: dc.test.spring.boot2.wu.controller
@@ -26,7 +30,7 @@ public class TestWu01Controller {
     @Autowired
     private Environment env;
 
-    //用这个，可以直接取application.properties内bean prop.
+    //方式3，依赖注入component类，类变量直接取application.properties
     @Autowired
     TestWu01Properties properties;
 
@@ -34,9 +38,9 @@ public class TestWu01Controller {
     public String wu() {
 
         System.out.printf(properties.toString());
-        return String.format("%s\t%s\n<br/>%s\t%s\t%s",
+        return String.format("%s\t%s\n<br/>%s\t%s\t%s\t%s",
                 sb2Title, env.getProperty("sb2.title"),
-                getClass().getSimpleName(), properties.getTitle(), properties.getDesc());
+                getClass().getSimpleName(), properties.getTitle(), properties.getDesc(), properties.getSb2Title());
     }
 
 }
